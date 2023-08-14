@@ -1,0 +1,103 @@
+/* General Styles */
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+  background: url('../images/galaxy.jpg');
+
+  /* Full Page Background */
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+
+}
+
+
+/* Heading Styles */
+
+h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 32px;
+  color: #2F386D;
+  font-weight: bold;
+
+}
+
+h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 24px;
+  color: #2F386D;
+  font-weight: bold;
+}
+
+a {
+   color: #2F386D;
+   text-decoration: none;
+   font-size: 32px;
+}
+/* Container Styles */
+
+.container {
+  width: 600px;
+  background-color: white;
+  margin: 50px auto;
+  border-radius: 20px 20px 0 0;
+
+}
+
+/* Hero Styles */
+
+.hero {
+  text-align: center;
+  padding: 15px;
+}
+
+/* Aside Styles */
+
+.banner {
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+aside.left {
+  float: left;
+  padding: 10px 20px 10px 10px;
+}
+
+
+/* Section Styles */
+
+.intro {
+  background-color: lightgray;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer {
+  color: #00FF00;
+}
+
+
+
+
